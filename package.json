@@ -9,7 +9,7 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
-    "tailwindcss": "postcss src/tailwind.css -o src/index.css",
+    "tailwindcss": "postcss src/styles/tailwind.css -o src/styles/index.css",
     "start": "npm run tailwindcss && react-scripts start",
     "build": "npm run tailwindcss && react-scripts build",
     "test": "react-scripts test",
@@ -36,6 +36,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.3.1",
+    "classnames": "^2.3.1",
     "gh-pages": "^3.2.3",
     "postcss": "^8.3.6",
     "postcss-cli": "^8.3.1",
