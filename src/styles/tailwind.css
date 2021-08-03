@@ -1,12 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@font-face {
-    font-family: 'Ubuntu';
-    src: local('Ubuntu'), url(../fonts/Ubuntu-Regular.ttf) format('ttf');
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: local('Roboto'), url(../fonts/Roboto-Light.ttf) format('ttf');
+@layer base {
+    @font-face {
+        font-family: Ubuntu;
+        font-weight: normal;
+        src: local(Ubuntu), url(../fonts/Ubuntu-Regular.ttf) format("ttf");
+    }
+    @font-face {
+        font-family: "Roboto Light";
+        font-weight: 300;
+        src: local("Roboto Light"), url(../fonts/Roboto-Light.ttf) format("ttf");
+    }
 }

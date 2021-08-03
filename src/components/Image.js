@@ -2,9 +2,9 @@ import portrait from '../images/portrait.png'
 
 function Image () {
   return (
-    <div className='relative w-auto h-auto'>
-      <img className='absolute left-0 bottom-0' src={portrait}
-           alt='Christopher Voit Portrait' />
+    <div>
+      <div className='left-24 top-24 bg-white w-[544px] h-[544px]'/>
+      <img src={portrait} alt='Christopher Voit Portrait' />
     </div>
   )
 }

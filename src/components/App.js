@@ -10,11 +10,12 @@ const colors = [
 
 function App () {
   return (
-    <div
-      className={`w-full h-screen flex justify-center items-center ${colors[Math.floor(Math.random() * colors.length)]}`}>
-      <div className={'grid grid-cols-2'}>
-        <Image />
-        <Heading />
+    <div className={`w-full h-screen flex items-center ${colors[Math.floor(Math.random() * colors.length)]}`}>
+      <div className='container mx-auto flex justify-center mb-56'>
+        <div className='grid grid-cols-2 flex items-center'>
+          <Image />
+          <Heading />
+        </div>
       </div>
       <Footer />
     </div>
