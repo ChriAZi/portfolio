@@ -1,19 +1,19 @@
-import Image from './Image'
 import Heading from './Heading'
 import Footer from './Footer'
 
-const colors = [
-  'bg-light-blue',
-  'bg-light-orange',
-  'bg-light-purple',
-]
-
 function App () {
   return (
-    <div className={`w-full h-screen flex items-center ${colors[Math.floor(Math.random() * colors.length)]}`}>
-      <div className='container mx-auto flex justify-center mb-56'>
-        <div className='grid grid-cols-2 flex items-center'>
-          <Image />
+    <div className='
+    h-full flex bg-light-blue
+    sm:items-center'>
+      <div className='
+      flex justify-start mx-6 overflow-auto py-6
+      md:mb-24 md:mx-16'>
+        <div className='
+        w-full
+        lg:w-2/4
+        md:w-3/4
+        sm:w-3/4'>
           <Heading />
         </div>
       </div>

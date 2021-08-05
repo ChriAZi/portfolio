@@ -13,3 +13,8 @@
         src: local("Roboto Light"), url(../fonts/Roboto-Light.ttf) format("ttf");
     }
 }
+@layer base {
+    #root {
+        @apply h-screen;
+    }
+}
